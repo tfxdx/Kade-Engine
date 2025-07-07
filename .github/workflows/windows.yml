@@ -17,7 +17,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkouta@main
       - name: Setup Java JDK
-        uses: actions/setup-java@min
+        uses: actions/setup-java@main
         with:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '17'
